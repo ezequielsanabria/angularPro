@@ -1,0 +1,15 @@
+/*Estudios*/
+.card {
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card-body {
+    border-radius: 1rem;
+}
+
+/*fin de estudios*/
+
+section#Estudios {
+    background: rgb(0, 204, 255);
+}

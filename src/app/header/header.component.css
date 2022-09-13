@@ -1,0 +1,28 @@
+header {
+    overflow: hidden;
+    padding: 6rem 0 3rem;
+    position: relative;
+}
+
+/*backgroun-img*/
+video {
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: .5;
+    position:absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nombre{
+    font-size: 3rem ;
+
+}
+
+.desarrollador{
+    font-size: 3rem;
+
+}
+
+

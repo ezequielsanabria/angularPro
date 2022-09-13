@@ -1,0 +1,47 @@
+ul {
+    font-size: 1.5rem;
+}
+
+ul.list-group.list-group-horizontal {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-width: 0;
+}
+
+i.fa-solid.fa-house:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color: aliceblue;
+}
+
+i.fa-brands.fa-facebook.fa-lg:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color: aliceblue;
+}
+
+i.fa-brands.fa-instagram.fa-lg:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color: aliceblue;
+}
+
+i.fa-brands.fa-line:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color: aliceblue;
+}
+
+
+
+
+i.fa-solid.fa-user-lock.fa-lg:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color: aliceblue;
+}
+
+
+.Proyectos.card-body {
+    background: radial-gradient(rgb(0, 204, 255), black);
+    color: white;
+}

@@ -1,0 +1,5 @@
+/*imagen-de-perfil*/
+.circle {
+    position: relative;
+    border-radius: 50%;
+}
