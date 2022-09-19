@@ -1,0 +1,15 @@
+li.fa-solid.fa-user-lock{
+    padding-left: 3.8%;
+    color:white;
+}
+
+li.fa-solid.fa-user-lock {
+    font-size: 1.5rem;
+}
+
+li.fa-solid.fa-user-lock:hover {
+
+    transition: transform .3s ease-in-out;
+    transform: scale(1.25);
+    color:black;
+}

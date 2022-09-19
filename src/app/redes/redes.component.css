@@ -7,19 +7,15 @@ ul.list-group.list-group-horizontal {
     --bs-list-group-border-width: 0;
 }
 
-i.fa-solid.fa-house:hover {
+
+
+a,i.fa-brands.fa-facebook.fa-lg:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.25);
     color: aliceblue;
 }
 
-i.fa-brands.fa-facebook.fa-lg:hover {
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.25);
-    color: aliceblue;
-}
-
-i.fa-brands.fa-instagram.fa-lg:hover {
+a,i.fa-brands.fa-instagram.fa-lg:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.25);
     color: aliceblue;
@@ -41,7 +37,3 @@ i.fa-solid.fa-user-lock.fa-lg:hover {
 }
 
 
-.Proyectos.card-body {
-    background: radial-gradient(rgb(0, 204, 255), black);
-    color: white;
-}

@@ -1,0 +1,25 @@
+i#buton-principal{
+    z-index: 1000;
+}
+
+.buton-inicio{
+    color:white ;
+    position: relative;
+    font-size: 1.5rem;
+    margin: initial;
+    margin-right:90%;
+    padding: .5rem;
+    background-color: black;
+    border-radius: 40%;
+}
+
+
+
+.buton-inicio:hover{
+    
+   
+   color:white;
+   transition: transform 0.2s ease-in-out;
+   transform: scale(1.25);
+
+}
