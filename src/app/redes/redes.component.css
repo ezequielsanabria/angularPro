@@ -9,7 +9,7 @@ ul.list-group.list-group-horizontal {
 
 
 
-a,i.fa-brands.fa-facebook.fa-lg:hover {
+a,i.fa-brands.fa-github:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.25);
     color: aliceblue;

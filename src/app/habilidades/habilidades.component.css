@@ -17,7 +17,7 @@
     background: linear-gradient(450deg, rgb(0, 204, 255), rgb(0, 0, 0));
     border: 2px solid rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
 }
 

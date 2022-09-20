@@ -5,6 +5,7 @@
 }
 
 .card.text-center{
-border-radius: 1rem;
-margin: 1rem;
+border-radius:1rem;
+margin: 1rem auto;
+box-shadow: .5px .5px 10px ;
 }
