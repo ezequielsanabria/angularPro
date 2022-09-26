@@ -1,7 +1,7 @@
 .buton-inicio{
     color:white ;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: initial;
     margin-right:90%;
     padding: .5rem;
@@ -17,5 +17,6 @@
    color:white;
    transition: transform 0.2s ease-in-out;
    transform: scale(1.25);
+   box-shadow:  2px 2px 10px black;
 
 }

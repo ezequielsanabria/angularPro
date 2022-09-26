@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule , Routes} from '@angular/router';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,7 +18,7 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ComentariosComponent } from './comentarios/comentarios.component';
 import { FooterComponent } from './footer/footer.component';
 import { RedesComponent } from './redes/redes.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ErrorComponent } from './error/error.component';
 import { NavbardashComponent } from '../carpetadash/navbardash/navbardash.component';
@@ -37,6 +39,11 @@ import { HabilidadmodalComponent } from './modals/habilidadmodal/habilidadmodal.
 import { EstudiosmodalComponent } from './modals/estudiosmodal/estudiosmodal.component';
 import { ProyectosmodalComponent } from './modals/proyectosmodal/proyectosmodal.component';
 import { ImgcirculodashComponent } from '../carpetadash/imgcirculodash/imgcirculodash.component';
+import { LogoargComponent } from './logoarg/logoarg.component';
+import { HamburgerComponent } from './hamburger/hamburger.component';
+import { TextoperfilComponent } from './textoperfil/textoperfil.component';
+import { ComponentproyectoComponent } from './componentproyecto/componentproyecto.component';
+
 
 @NgModule({
   declarations: [
@@ -74,7 +81,11 @@ import { ImgcirculodashComponent } from '../carpetadash/imgcirculodash/imgcircul
     HabilidadmodalComponent,
     EstudiosmodalComponent,
     ProyectosmodalComponent,
-    ImgcirculodashComponent
+    ImgcirculodashComponent,
+    LogoargComponent,
+    HamburgerComponent,
+    TextoperfilComponent,
+    ComponentproyectoComponent
   ],
   imports: [
     BrowserModule,
