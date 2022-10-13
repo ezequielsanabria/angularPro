@@ -1,0 +1,123 @@
+{
+
+"nombre": "Ezequie",
+"apellido":"Sanabria",
+"hacerca de mi": "lorem",
+"titulo":"Desarrollador",
+"nivel":"fullstack",
+"banner":"assets/img/Hackear - 129375.mp4",
+"imagen":"assets/img/perfil (1).jpeg"
+,
+
+"estudios":[
+    {
+        "nombre":"ingles",
+        "inicio":"Mayo 2022",
+        "fin": "Mayo 2022",
+        "nivel":"medio",
+        "img": "assets/img/perfil.png"
+        },
+
+        {
+            "nombre":"secundario",
+            "inicio":"Mayo 2022",
+            "fin": "Mayo 2022",
+            "nivel":"completo",
+            "img": "assets/img/perfil.png"
+            },
+
+            {
+                "nombre":"yo programo",
+                "inicio":"Mayo 2022",
+                "fin": "Mayo 2022",
+                "nivel":"junior",
+                "img": "assets/img/perfil.png"
+                }
+
+                
+
+],
+
+
+"experiecia":[{
+
+"nombre":"policia",
+"fechaIn":"03/11/2020",
+"fechaFin":"06/09/2022",
+"imagen":"", 
+"detalle":"xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx"
+
+},
+
+{
+"nombre":"doctor",
+"fechaIn":"03/11/2020",
+"fechaFin":"06/09/2022",
+"imagen":"",
+"detalle": "xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx"
+        
+},
+
+{
+"nombre":"bomber",
+"fechaIn":"03/11/2020",
+"fechaFin":"06/09/2022",
+"imagen":"",
+"detalle": "xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx"
+                
+}
+],
+
+"skills":[{
+
+    "habilidad":1,
+    "nombre":"html",
+    "porsetaje":80
+
+},
+
+{
+
+    "habilidad":1,
+    "nombre":"css",
+    "porsetaje":50
+
+},
+
+{
+
+    "habilidad":1,
+    "nombre":"angular",
+    "porsetaje":40
+
+}
+],
+
+"proyectos":[{
+    "proyecto":1,
+    "nombre":"Calculadora",
+    "fecha":"02/06/2022",
+    "linkGitHub":"",
+    "linkpagina":""
+},
+
+{
+    "proyecto":2,
+    "nombre":"task-list",
+    "fecha":"08/11/2022",
+    "linkGitHub":"",
+    "linkpagina":""
+},
+
+{
+    "proyecto":3,
+    "nombre":"barras de porsentaje",
+    "fecha":"07/09/2022",
+    "linkGitHub":"",
+    "linkpagina":""
+}
+]
+
+
+
+}

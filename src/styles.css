@@ -3,6 +3,12 @@
     font-family: serif;
 }
 
+html {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+
 body,
 html {
     overflow: var(--bs-list-group-border-width);
@@ -21,4 +27,8 @@ h3{
         text-transform: uppercase;
             letter-spacing: .3rem;
             font-size: 2rem;
+}
+
+.x-scroll-disabled {
+	overflow-x: hidden;
 }

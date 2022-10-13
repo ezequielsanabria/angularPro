@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule , Routes} from '@angular/router';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -43,7 +42,8 @@ import { LogoargComponent } from './logoarg/logoarg.component';
 import { HamburgerComponent } from './hamburger/hamburger.component';
 import { TextoperfilComponent } from './textoperfil/textoperfil.component';
 import { ComponentproyectoComponent } from './componentproyecto/componentproyecto.component';
-
+import { PortfolioService } from './servicios/portfolio.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -89,7 +89,8 @@ import { ComponentproyectoComponent } from './componentproyecto/componentproyect
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

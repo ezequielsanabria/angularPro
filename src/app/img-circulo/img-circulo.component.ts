@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from '../servicios/portfolio.service';
 
 @Component({
   selector: 'app-img-circulo',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./img-circulo.component.css']
 })
 export class ImgCirculoComponent implements OnInit {
-
-  constructor() { }
+  miPortfolio:any;
+  constructor( private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);
+      this.miPortfolio = data;
+    })
   }
 
 }

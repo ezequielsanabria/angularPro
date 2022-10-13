@@ -1,50 +1,28 @@
 <section id="Experienciadash"><br><br>
     <hr>
-    <h3><b p-5>Experiencia Laboral</b></h3>
+    <h3><b>Experiencia Laboral</b></h3>
     <app-experienciamodal></app-experienciamodal>
-    <br>
+    <br><br><br><br>
     <div class="container">
-        <div class="row">
+        <div *ngFor='let experiencia of trabajos' class="row" >
             <div class="col-2">
                 <div class=" logo rounded-circle">
                     <img class="circle" src="assets/img/perfil.png" height="100rem">
                 </div>
             </div>
-            <div class="col-10">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo nam assumenda facere doloribus
-                    quasi illum similique consequuntur,
-                    incidunt, natus tenetur adipisci amet vero fugit velit, delectus debitis modi eligendi.</p>
+            <div class="col-4">
+               <h5><b>{{experiencia.trabajo}}</b></h5>
+               <h6><b>inicio:</b>{{experiencia.inicio}} <br> <b>fin:</b>{{experiencia.fin}}</h6>
             </div>
+
+            <div class="col-6">
+               <p>{{experiencia.detalle}}</p>
+            </div>
+            <br><br><br><br><br><br><hr>
         </div>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-2">
-                <div class=" logo rounded-circle">
-                    <img class="circle" src="assets/img/perfil.png" height="100rem">
-                </div>
-            </div>
-            <div class="col-10">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo nam assumenda facere doloribus
-                    quasi illum similique consequuntur,
-                    incidunt, natus tenetur adipisci amet vero fugit velit, delectus debitis modi eligendi.</p>
-            </div>
-        </div>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-2">
-                <div class=" logo rounded-circle">
-                    <img class="circle" src="assets/img/perfil.png" height="100rem">
-                </div>
-            </div>
-            <div class="col-10">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo nam assumenda facere doloribus
-                    quasi illum similique consequuntur,
-                    incidunt, natus tenetur adipisci amet vero fugit velit, delectus debitis modi eligendi.</p>
-            </div>
-        </div>
-        <hr>
+     
+</div> 
+
         <div class="row">
             <div class="col-4">
 
@@ -61,6 +39,15 @@
             </div>
             <div class="col-6"></div>
         </div>
-    </div>
     <hr>
+
+
+
+
+
+
+
+
+    
 </section>
+
