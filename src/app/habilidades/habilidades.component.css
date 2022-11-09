@@ -26,89 +26,11 @@
     color: beige;
     font-weight: 500;
 }
-
-h2 {
-    margin-bottom: 50px;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 34px;
-    font-weight: bold;
-
+.nombre{
+    margin-left: -80%;
+    margin-bottom: -2rem;
 }
 
-.skills:not(:last-child) {
-    margin-bottom: 30px;
+.porsentaje{
+    margin-right: -80%;
 }
-
-.detalles {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-
-}
-
-.menu-bar {
-    position: relative;
-    border: 1px solid rgba(255, 136, 0, 0.911);
-    border-radius: 20px;
-
-}
-
-.menu-bar div {
-    position: relative;
-    width: 0;
-    height: 8px;
-    border-radius: 10px;
-    background-color: rgba(255, 136, 0, 0.911);
-}
-
-/*animacion*/
-
-#html-menu {
-    animation: html-barra 2s forwards;
-}
-
-@keyframes html-barra {
-    100% {
-        width: 80%;
-    }
-}
-
-#css-menu {
-    animation: css-barra 2s forwards;
-
-}
-
-
-@keyframes css-barra {
-    100% {
-        width: 70%;
-    }
-}
-
-#js-menu {
-    animation: js-barra 2s forwards;
-
-}
-
-
-@keyframes js-barra {
-    100% {
-        width: 50%;
-    }
-}
-
-#angular-menu {
-    animation: angular-barra 2s forwards;
-
-}
-
-
-@keyframes angular-barra {
-    100% {
-        width: 30%;
-    }
-}
-
-/*termiba barras de skills*/

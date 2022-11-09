@@ -44,6 +44,7 @@ import { TextoperfilComponent } from './textoperfil/textoperfil.component';
 import { ComponentproyectoComponent } from './componentproyecto/componentproyecto.component';
 import { PortfolioService } from './servicios/portfolio.service';
 import {HttpClientModule} from '@angular/common/http';
+import { ExperienciaComponentComponent } from './experiencia-component/experiencia-component.component';
 
 @NgModule({
   declarations: [
@@ -85,7 +86,8 @@ import {HttpClientModule} from '@angular/common/http';
     LogoargComponent,
     HamburgerComponent,
     TextoperfilComponent,
-    ComponentproyectoComponent
+    ComponentproyectoComponent,
+    ExperienciaComponentComponent
   ],
   imports: [
     BrowserModule,

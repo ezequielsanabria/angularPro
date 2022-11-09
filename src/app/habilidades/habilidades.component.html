@@ -1,49 +1,20 @@
 <section id="Skills"><br><br><br>
-    <h3><b>HARD Y SOFT SKILLS </b></h3>
-    <!--barras de skill-->
-    <div class="caja-padre">
-        <div class="contenedor">
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="detalles">
-                    <span>HTML</span>
-                    <span>80%</span>
-                </div>
-                <div class="menu-bar">
-                    <div id="html-menu"></div>
-                </div>
-            </div>
+  <h3><b>HARD Y SOFT SKILLS </b></h3>
+  <!--barras de skill-->
+  <div class="caja-padre">
+      <div class="contenedor">
 
-            <div class="skills">
-                <div class="detalles">
-                    <span>CSS</span>
-                    <span>70%</span>
-                </div>
-                <div class="menu-bar">
-                    <div id="css-menu"></div>
-                </div>
-            </div>
-            <div class="skills">
-                <div class="detalles">
-                    <span>Javascript</span>
-                    <span>50%</span>
-                </div>
-                <div class="menu-bar">
-                    <div id="js-menu"></div>
-                </div>
-            </div>
-            <div class="skills">
-                <div class="detalles">
-                    <span>Angular</span>
-
-                    <span>30%</span>
-                </div>
-                <div class="menu-bar">
-                    <div id="angular-menu"></div>
-                </div>
-            </div>
+        <h2>SKILLS</h2>
+    <div class="barras" *ngFor="let habilidades of Habilidad">
+        <h4 class="nombre">{{habilidades.nombre}}</h4>
+        <h4 class="porsentaje">{{habilidades.porsentaje}}%</h4>
+        <div class="progress">
+          <div class="progress-bar"  [ngClass]="" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" [style.width.%]="habilidades.porsentaje"></div>
         </div>
+          
+          <br>
+        </div>
+
       </div>
-    <!--termina barra de skills-->
-    <br>
+    </div>
 </section>

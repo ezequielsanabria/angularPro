@@ -39,58 +39,59 @@
 ],
 
 
-"experiecia":[{
+"experiencia":[{
 
-"nombre":"policia",
-"fechaIn":"03/11/2020",
-"fechaFin":"06/09/2022",
+"nombre":"Trabajo1",
+"fechaIN":"dd/mm/aaaa",
+"fechaFIN":"dd/mm/aaaa",
 "imagen":"", 
-"detalle":"xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx"
+"detalle":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ex numquam praesentium architecto sunt officiis accusantium, non sed dolor ab repellat harum temporibus at quibusdam illo incidunt fugit dolore illum!"
 
 },
 
 {
-"nombre":"doctor",
-"fechaIn":"03/11/2020",
-"fechaFin":"06/09/2022",
+"nombre":"Trabajo2",
+"fechaIN":"dd/mm/aaaa",
+"fechaFIN":"dd/mm/aaaa",
 "imagen":"",
-"detalle": "xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx"
+"detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ex numquam praesentium architecto sunt officiis accusantium, non sed dolor ab repellat harum temporibus at quibusdam illo incidunt fugit dolore illum!"
         
 },
 
 {
-"nombre":"bomber",
-"fechaIn":"03/11/2020",
-"fechaFin":"06/09/2022",
+"nombre":"Trabalo3",
+"fechaIN":"dd/mm/aaaa",
+"fechaFIN":"dd/mm/aaaa",
 "imagen":"",
-"detalle": "xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx"
+"detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ex numquam praesentium architecto sunt officiis accusantium, non sed dolor ab repellat harum temporibus at quibusdam illo incidunt fugit dolore illum!"
                 
-}
-],
+}],
 
-"skills":[{
+
+"habilidades":[{
 
     "habilidad":1,
     "nombre":"html",
-    "porsetaje":80
+    "porsentaje":80
 
 },
 
 {
 
-    "habilidad":1,
+    "habilidad":2,
     "nombre":"css",
-    "porsetaje":50
+    "porsentaje":50
 
 },
 
 {
 
-    "habilidad":1,
+    "habilidad":3,
     "nombre":"angular",
-    "porsetaje":40
+    "porsentaje":40
 
 }
+
 ],
 
 "proyectos":[{
